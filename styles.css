@@ -200,14 +200,34 @@ main {
 
 /* animation & keyframes */
 
-button:hover {
-  transform: scale(0.9);
-  transition: transform 1.5s;
+@property --translateY {
+  syntax: '<length-percentage>';
+  initial-value: 0;
+  inherits: false;
 }
 
+@property --scale {
+  syntax: '<number> | <percentage>';
+  initial-value: 1;
+  inherits: false;
+}
+
+button:hover {
+  --scale: 0.9;
+  /* transition: transform 1.5s; */
+}
+.footer-button:hover{
+  transition: --scale 1.5s;
+  transform:
+    translateY(var(--translateY))
+    scale(var(--scale))
+  ;
+}
 button{
   transition: transform 1.5s;
 }
+
+
 
 .hero-heading, .hero-paragraph, .description-content h1{
   animation: FadeIn ease-in-out 2500ms;
@@ -220,36 +240,50 @@ button{
   animation-fill-mode:forwards;
 }
 .hero-button {
-  animation: Btn forwards 1 ease-in-out 2500ms;
-  animation-delay: .5s;
+  animation: Btn ease-in-out 2500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  transition: --scale 1.5s;
+
+  transform:
+    translateY(var(--translateY))
+    scale(var(--scale))
+  ;
+
 }
 .hero-paragraph {
-  animation-delay: .4s;
+  animation-delay: .5s;
 }
 
 .hero-icon  {
   animation-delay: .6s;
 }
 
+.hero-button {
+  animation-delay: .6s;
+}
+
 @keyframes Btn {
   0% {
     opacity: 0;
-    transform: translateY(-25%);
+    --translateY: -25px;
   }
+
   100% {
     opacity: 1;
-    transform: translateY(0px);
+    --translateY: 0px;
   }
 }
 
 @keyframes FadeIn{
   0% {
-    transform:  translateY(-25%);
     opacity:0;
+    transform:  translateY(-25%);
   }
   100% {
-    transform: translateY(0);
     opacity:1;
+    transform: translateY(0);
   }
 }
 @keyframes IconFadeIn{
