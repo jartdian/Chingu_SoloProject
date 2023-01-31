@@ -318,6 +318,9 @@ button{
     align-items: center;
     padding-bottom: 4em;
   }
+  .hero-icon img {
+    max-width: 200px;
+  }
   .top-p-block {
     flex-direction: column;
   }
