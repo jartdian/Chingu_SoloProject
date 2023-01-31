@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path d="M59.752,0.012L170,0C170,0 170.198,2.102 170.444,6.766C171.363,19.632 181.932,29.68 194.828,29.95C195.75,29.975 196.524,29.99 197.168,30C199.278,30.032 200,30 200,30L200,186.278C200,193.851 193.851,200 186.278,200L59.879,200L13.722,199C6.149,199 1,193.851 1,186.278L-0,13.739C1,7.166 7.149,1.017 13.722,0.017L59.752,0.012L59.752,199.914L59.752,0.012Z" style="fill:rgb(214,214,214);"/>
+    <g id="PaperFlip">
+        <path d="M170,0L200,30L174.191,30C171.876,30 170,28.124 170,25.809L170,0Z" style="fill:rgb(188,188,188);"/>
+    </g>
+    <g id="LeftBlueContext">
+        <path d="M60,15L59.983,0L15,0C6.721,0 -0,6.721 -0,15L-0,185C-0,193.279 6.721,200 15,200L60,200L60,15Z" style="fill:rgb(106,153,202);"/>
+    </g>
+    <g id="FaceIcon">
+        <circle cx="30" cy="50" r="20" style="fill:rgb(201,115,53);"/>
+        <g transform="matrix(1,0,0,1.11111,0,-3.55556)">
+            <ellipse cx="30" cy="41" rx="8" ry="9" style="fill:rgb(247,246,246);"/>
+        </g>
+        <path d="M26.825,53.412C28.824,54.412 31.176,54.412 33.175,53.412C34.615,52.693 36,52 36,52L47,57C47,57 40.88,67.611 30,68C19.12,67.611 13,57 13,57L24,52C24,52 25.385,52.693 26.825,53.412Z" style="fill:rgb(255,245,242);"/>
+    </g>
+    <g id="DownLeft">
+        <g transform="matrix(1,0,0,0.9,0,18)">
+            <rect x="6" y="170" width="49" height="10" style="fill:rgb(63,63,63);"/>
+        </g>
+        <g transform="matrix(1,0,0,0.9,0,-4)">
+            <rect x="6" y="170" width="49" height="10" style="fill:rgb(63,63,63);"/>
+        </g>
+    </g>
+    <g id="TopRight">
+        <g transform="matrix(1.0315,0,0,1,-6.20472,0)">
+            <rect x="70" y="40" width="127" height="22.5" style="fill:rgb(154,154,154);"/>
+        </g>
+        <g transform="matrix(1.33333,0,0,1,-40.3333,0)">
+            <rect x="100" y="47" width="60" height="9" style="fill:rgb(172,178,184);"/>
+        </g>
+    </g>
+    <g id="DownRight">
+        <rect x="80" y="90" width="110" height="10" style="fill:rgb(106,153,202);"/>
+        <g transform="matrix(1,0,0,1,0,29.9732)">
+            <rect x="80" y="90" width="110" height="10" style="fill:rgb(106,153,202);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,59.0776)">
+            <rect x="80" y="90" width="110" height="10" style="fill:rgb(106,153,202);"/>
+        </g>
+        <g transform="matrix(0.445455,0,0,1,105.364,84.0553)">
+            <rect x="80" y="90" width="110" height="10" style="fill:rgb(106,153,202);"/>
+        </g>
+    </g>
+</svg>
