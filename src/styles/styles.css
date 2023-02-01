@@ -198,6 +198,22 @@ main {
   padding: 5em 2em 0 2em;
 }
 
+.btn-go-up {
+  display: none;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-size: 2em;
+  background-color: #e03636;
+  padding: 0.4em;
+  border-radius: .2em;
+  border: none;
+  z-index: 99; 
+}
+.btn-go-up:hover {
+  background-color: #d9b351;  
+}
+
 /* animation & keyframes */
 
 @property --translateY {
